@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aventura da Cidade Perdida</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>🗺️ Aventura da Cidade Perdida</h1>
+<p>Escolha seus caminhos e descubra um antigo tesouro.</p>
+</header>
+
+<main>
+
+<div class="passo ativo" id="passo-0">
+<h2>O Começo da Jornada</h2>
+
+<p>
+Um dia desses, dentro de um livro da biblioteca da escola,
+eu descobri uma carta antiga sobre uma cidade perdida,
+escondida por riquezas e belezas naturais.
+Nessa carta, a autora deixa algumas pistas para encontrar essa cidade
+e eu decidi segui-las!
+</p>
+
+<button class="btn-proximo" data-proximo="1">
+Rio de Janeiro
+</button>
+
+<button class="btn-proximo" data-proximo="2">
+Pernambuco
+</button>
+
+</div>
+
+<div class="passo" id="passo-1">
+
+<h2>Rio de Janeiro</h2>
+
+<p>
+Você começa sua jornada no Rio de Janeiro,
+subindo o Pico da Tijuca ao amanhecer para encontrar
+a primeira pista.
+</p>
+
+<button class="btn-proximo" data-proximo="3">
+Procurar a pista no topo do pico
+</button>
+
+<button class="btn-proximo" data-proximo="4">
+Desistir e voltar para casa
+</button>
+
+</div>
+
+<div class="passo" id="passo-2">
+
+<h2>Pernambuco</h2>
+
+<p>
+Você decide seguir para Pernambuco e encontra
+uma antiga igreja onde existe um mapa escondido.
+</p>
+
+<button class="btn-proximo" data-proximo="5">
+Entrar na igreja
+</button>
+
+</div>
+
+<div class="passo" id="passo-3">
+
+<h2>Pista Encontrada!</h2>
+
+<p>
+No topo do Pico da Tijuca você encontra um velho mapa
+indicando uma cachoeira misteriosa.
+</p>
+
+<button onclick="location.reload()">
+Reiniciar aventura
+</button>
+
+</div>
+
+<div class="passo" id="passo-4">
+
+<h2>Fim da Jornada</h2>
+
+<p>
+Você resolveu voltar para casa.
+A cidade perdida continuará sendo um mistério...
+</p>
+
+<button onclick="location.reload()">
+Jogar novamente
+</button>
+
+</div>
+
+<div class="passo" id="passo-5">
+
+<h2>Mapa Antigo</h2>
+
+<p>
+Dentro da igreja existe um mapa que leva
+até a cidade perdida.
+Parabéns! Você encontrou uma nova aventura.
+</p>
+
+<button onclick="location.reload()">
+Começar novamente
+</button>
+
+</div>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
